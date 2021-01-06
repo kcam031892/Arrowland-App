@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "380484455848",
+    "firebase_url": "https://arrowland-5505e.firebaseio.com",
+    "project_id": "arrowland-5505e",
+    "storage_bucket": "arrowland-5505e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380484455848:android:ecf08056ea3b5672",
+        "android_client_info": {
+          "package_name": "com.arrowland.arrowland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380484455848-kpchc4fk9da80plio6lo9j90p7l9rc73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKh6-RKCxMonTMPYYARSDsYs0al3j_R10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

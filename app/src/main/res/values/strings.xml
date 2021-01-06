@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Arrowland</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="mission1">
+        To bring archery closer to the hearts of Filipinos by making it an accessible sport for everyone
+    </string>
+    <string name="mission2">
+        To provide facilities and equipment for different kinds of archers
+    </string>
+    <string name="mission3">
+        To produce archers and champions who could represent the Gandiva brand and the country
+    </string>
+    <string name="mission4">
+        To be the leader in our craft by providing quality but affordable products and services
+    </string>
+    <string name="mission5">
+        To advocate health and wellness by promoting the mental and physical benefits of archery
+    </string>
+
+    <string name="vission1">
+        Archery as a health and wellness lifestyle that is close to the hearts of Filipinos.
+    </string>
+
+    <string name="membership_message">
+        Applying membership will cost 2000 pesos. You will get notification when you get accepted. Apply Now!
+
+    </string>
+
+    <string name="payment_message">
+        Thank you! Your payment is sending wait to finish the upload to update your payment. Wait for the confirmation if valid or not.
+
+    </string>
+
+    <string name="reservation_success_message">
+        \tYour reservation has been successfully send. Please pay the reservation fee so your reservation can be accept.
+    </string>
+
+    <string name="smart_step_1">
+        Fill out the Form with Smart ID Number. 5577-5193-3461-2109
+    </string>
+    <string name="smart_step_2">
+        In the amount. Write the amount you pay with the minimum of PHP 200.
+    </string>
+
+    <string name="smart_step_3">
+        In your Mobile App. Click My Reservation then in Pending Tab click the Reservation you want to pay then click "Please pay your reservation fee".
+
+    </string>
+    <string name="smart_step_4">
+        Click the Logo of Smart Padala Logo
+    </string>
+    <string name="smart_step_5">
+        Fill out the Contact Number, Reference Number, Amount.
+    </string>
+    <string name="smart_step_6">
+        Attach the picture of your receipt.Then Click Pay!
+    </string>
+    <string name="smart_step_7">
+        Then wait for the confirmation from the Arrowland if your payment is valid or not!
+    </string>
+
+    <string name="cebuanna_step_1">
+        Fill out Pera Padala Form with recipient Jimmeer Bernabe.
+    </string>
+    <string name="cebuanna_step_2">
+        In the amount. Write the amount you pay with the minimum of PHP 200.
+    </string>
+
+    <string name="cebuanna_step_3">
+        In your Mobile App. Click My Reservation then in Pending Tab click the Reservation you want to pay then click "Please pay your reservation fee".
+
+    </string>
+    <string name="cebuanna_step_4">
+        Click the Logo of Cebuana Lhuiller
+    </string>
+    <string name="cebuanna_step_5">
+        Fill out the Sender name, Control Number, Amount.
+    </string>
+    <string name="cebuanna_step_6">
+        Attach the picture of your receipt.Then Click Pay!
+    </string>
+    <string name="cebuanna_step_7">
+        Then wait for the confirmation from the Arrowland if your payment is valid or not!
+    </string>
+
+    <string name="lesson_pending_message">
+        Your application is still pending .Please pay your lesson fee in the Arrowland SM-North to accept your application.You will get notified when your application get accepted.
+    </string>
+
+
+    <string name="gender_prompt">Select a Gender</string>
+
+
+    <string name="google_maps_key">AIzaSyBAAHFM-rjQR2EA0Gm8FHvcnv7TpJ6AKi8</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

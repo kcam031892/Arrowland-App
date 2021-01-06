@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_gradient"
+    >
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_call"
+        android:id="@+id/fab_call"
+        android:backgroundTint="@color/colorGreen"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontWhite"
+            android:textSize="30dp"
+            android:text="Connect with us: " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontWhite"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_contact"
+            android:drawableTint="@color/colorDarkGreen"
+            android:drawablePadding="10dp"
+            android:text="373-2571 " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontWhite"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawableTint="@color/colorDarkGreen"
+            android:drawablePadding="10dp"
+            android:text="arrowland@gandiva.com " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontWhite"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawableTint="@color/colorDarkGreen"
+            android:drawablePadding="10dp"
+            android:text="2nd Level SM North Edsa Annex Building, Quezon City" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="50dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arrowland.arrowland.PaymentSmartPadala"
+    android:background="@drawable/bg_gradient"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </include>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reservation Details"
+                    android:textColor="@color/fontWhite"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/fontWhite"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tvAmount"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/tvMembershipId"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/fontWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/fontWhite"
+                    android:id="@+id/tvDiscount"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text=""
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tvTotal"
+                    />
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="10"
+                    android:background="@color/fontWhite"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    >
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Enter Your Payment Information"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Sender Name"
+                    android:textColorHint="@color/fontWhite"
+                    android:backgroundTint="@color/fontWhite"
+                    android:ems="10"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:inputType="textPersonName"
+                    android:id="@+id/etSenderName"
+                    android:textColor="@color/fontWhite"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Control Number"
+                    android:backgroundTint="@color/fontWhite"
+                    android:textColorHint="@color/fontWhite"
+                    android:ems="10"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/fontWhite"
+                    android:id="@+id/etReferenceNumber"
+                    android:maxLength="10"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount"
+                    android:backgroundTint="@color/fontWhite"
+                    android:textColorHint="@color/fontWhite"
+                    android:ems="10"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/fontWhite"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:id="@+id/etAmount"
+                    />
+
+
+
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Upload a image"
+                    android:background="@drawable/my_button"
+                    android:textColor="@color/fontWhite"
+                    android:padding="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/btnSelectImage"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/img_payment"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_button"
+                    android:text="Pay"
+                    android:textColor="@color/fontWhite"
+                    android:id="@+id/btnPay"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <include layout="@layout/loading_spinner">
+
+    </include>
+
+
+
+</RelativeLayout>

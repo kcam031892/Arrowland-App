@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    android:background="@drawable/bg_gradient">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_reservation"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:visibility="gone"
+                android:scaleType="centerCrop" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/img_reservation"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="20dp"
+                    android:text="Make a reservation!"
+                    android:textColor="@color/fontWhite"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnResDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_button"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Choose a date"
+                    android:textColorHint="@color/fontWhite" />
+
+                <LinearLayout
+                    android:id="@+id/linearTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cvTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="10dp"
+                        android:visibility="visible"
+
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <Spinner
+                                android:id="@+id/spinner3"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#c0c0c0">
+
+                            </View>
+
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:textSize="15dp" />
+                            <TextView
+                                android:id="@+id/tvYear"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#c0c0c0"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+
+
+                                >
+
+                            </View>
+
+                            <Spinner
+                                android:id="@+id/spinnerPackage"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="12dp"
+                                />
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#c0c0c0">
+                            </View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="20dp"
+                                android:textSize="15dp"
+                                android:text="Package will be pay in the arena"/>
+                            <CheckBox
+                                android:id="@+id/checkBox2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:text="With Coaches "
+                                android:checked="false"
+                                android:layout_above="@+id/checkBox1" />
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#c0c0c0"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+
+
+                                >
+
+                            </View>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:text="Range Rental Price is PHP 300"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:id="@+id/tvPackagePrice"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:id="@+id/tvCoachPrice"
+                                android:visibility="gone"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#c0c0c0"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+
+
+                                >
+
+                            </View>
+
+
+
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="20dp"
+                                android:id="@+id/txtTotal"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <Button
+                        android:id="@+id/btnSetReservation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/black_button"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="Reserve"
+                        android:textColorHint="@color/fontWhite" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+    <include
+        layout="@layout/loading_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </include>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@color/fontWhite"
+    android:scrollbars="none"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            app:srcCompat="@drawable/logo" />
+
+
+        <TextView
+
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView4"
+
+            android:layout_marginTop="18dp"
+            android:text="ARROWLAND"
+            android:textColor="@color/fontWhite"
+            android:textSize="26dp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="90dp"
+            android:background="#c0c0c0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="20dp"
+            android:text="WHERE FUN IS RIGHT ON TARGET" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+
+            android:textColor="@color/fontWhite"
+            android:textSize="15dp"
+            android:text="  Arrowland by Gandiva was established with one goal - to make archery a fun and accessible sport for everyone. Our different branches caters to all kinds of archers. Range distance varying from 10 to 18 meters, bows appropriate for each skill level and well-equipped armory for all archers need. We provide a clean and safety facility accompanied by the friendliest smiles from our awesome pool of coaches. We guarantee a one-of-a kind experience loaded with fun and good times." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="20dp"
+            android:text="Our Mission" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_below="@id/textView6"
+
+
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/mission1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/mission2" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/mission3" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/mission4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/mission5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linearLayout1"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+
+            android:textColor="@color/colorDarkGreen"
+            android:textSize="20dp"
+            android:text="Our Vision" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2"
+            android:layout_below="@id/textView7">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontWhite"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:drawableTint="@color/fontWhite"
+                android:text="@string/vission1" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

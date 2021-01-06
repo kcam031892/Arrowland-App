@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    android:padding="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/lessonPrimaryLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archery Lessons"
+                android:textColor="@color/fontWhite"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorDarkGreen"
+                android:textSize="20dp"
+                android:text="Inclusion:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/fontWhite"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/fontWhite"
+                    android:text="10 SESSIONS: 1HR PER SESSION"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/fontWhite"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/fontWhite"
+                    android:text="6 TARGET PER PAPERS"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/fontWhite"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/fontWhite"
+                    android:text="EQUIPMENT RENTAL"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/fontWhite"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/fontWhite"
+                    android:text="CERTIFICATION OF COMPLETION"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/fontWhite"
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/fontWhite"
+                    android:text="ASSESMENT SHEET"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRICE: P 8,500"
+                android:textColor="@color/fontWhite"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnEroll"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="btnMembership"
+                android:text="ENROLL NOW!"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/fontWhite"
+                android:layout_marginTop="70dp"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradient"
+        android:id="@+id/lessonPendingLayout"
+        android:visibility="invisible"
+        >
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:maxHeight="10dp"
+                android:maxWidth="10dp"
+                app:srcCompat="@drawable/logo"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_marginTop="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="@color/colorDarkGreen"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:padding="18dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lesson_pending_message"
+                        android:textSize="18dp"
+                        android:textColor="@color/fontWhite"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/card_view"
+            android:layout_marginTop="100dp"
+
+            >
+
+
+            <Button
+                android:layout_width="200dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_button"
+                android:text="Cancel Application"
+                android:textColor="@color/fontWhite"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lessonAcceptedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        >
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:maxHeight="10dp"
+                android:maxWidth="10dp"
+                app:srcCompat="@drawable/logo"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_marginTop="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/colorDarkGreen"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:padding="12dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvApplicationStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="You are enrolled to beginner lesson"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                            android:drawableTint="@color/fontWhite"
+                            android:id="@+id/txtRemainingLesson"
+                            android:padding="10dp"
+                            android:drawablePadding="5dp"
+                            android:textSize="14dp"
+                            android:textColor="@color/fontWhite"
+                            android:text="10 SESSIONS LEFT"/>
+
+                        <TextView
+                            android:layout_marginTop="40dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtMessage"
+                            android:padding="10dp"
+                            android:textSize="20dp"
+                            android:visibility="gone"
+                            android:textColor="@color/fontWhite"
+                            android:text="You have pending request please wait for the confirmation"/>
+
+                        <Button
+                            android:id="@+id/btnSetSchedule"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:background="@drawable/my_button"
+                            android:onClick="btnMembership"
+                            android:text="Set your schedule"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@color/fontWhite"
+                            android:visibility="visible"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/card_view1"
+
+            >
+
+            <Button
+                android:id="@+id/btnApplyMembershipAgain"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/my_button"
+                android:onClick="btnMembership"
+                android:text="Apply Again!"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/fontWhite"
+                android:visibility="invisible"
+
+                />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/loading_spinner">
+
+    </include>
+
+</RelativeLayout>

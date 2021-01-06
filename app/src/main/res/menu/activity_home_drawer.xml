@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/pre-membership-enrollment"
+            android:icon="@drawable/ic_access_alarms_black_24dp"
+            android:title="Pre-Membership &amp; Enrollment" />
+
+        <item
+            android:id="@+id/membership"
+            android:icon="@drawable/ic_access_alarms_black_24dp"
+            android:title="Apply For Membership" />
+
+        <item
+            android:id="@+id/lessons"
+            android:icon="@drawable/ic_access_alarms_black_24dp"
+            android:title="Enroll Lessons" />
+
+        <item
+            android:id="@+id/reservation"
+            android:icon="@drawable/ic_access_alarms_black_24dp"
+            android:title="Range Rental" />
+        <item
+            android:id="@+id/payment_instruction"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Payment Instruction">
+
+        </item>
+
+
+        <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_contact_phone_black_24dp"
+        android:title="Contact Us" />
+
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/logout"-->
+            <!--android:icon="@drawable/ic_contact_phone_black_24dp"-->
+            <!--android:title="Logout"-->
+            <!--android:visible="true"/>-->
+
+
+    </group>
+
+    <!--<group android:checkableBehavior="single" android:id="@+id/group2">-->
+        <!--<item-->
+            <!--android:id="@+id/logout"-->
+            <!--android:icon="@drawable/lg"-->
+            <!--android:title="Logout" />-->
+
+
+    <!--</group>-->
+
+
+</menu>

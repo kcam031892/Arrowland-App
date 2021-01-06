@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context="com.arrowland.arrowland.MembershipInput">
+
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose if you are a member or not"
+            android:textColor="@color/fontWhite"
+            android:padding="20dp"
+            android:textSize="20dp"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/fontWhite"
+                android:textColor="@color/fontWhite"
+                android:text="Member"
+                android:padding="4dp"
+                android:id="@+id/radioButtonMember"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/fontWhite"
+                android:textColor="@color/fontWhite"
+                android:text="Non Member"
+                android:padding="4dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/radioButtonNonMember"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_button"
+            android:text="Choose Payment"
+            android:textColor="@color/fontWhite"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnChoosePayment"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

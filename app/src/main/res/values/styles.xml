@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorShadeRed</item>
+        <item name="android:textColorHint">@color/fontWhite</item>
+
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/fontWhite</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme.NoActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+    
+    <style name="fontMonaco">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--BUTTON COLOR-->
+        <item name="colorAccent">#E0FFFF </item>
+        <!--TEXT COLOR-->
+        <item name="android:textColorPrimary">@color/fontWhite</item>
+        <!--BACKGROUND-->
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+
+    </style>
+
+
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">@color/fontWhite</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/colorGreen</item>
+
+
+    </style>
+
+</resources>

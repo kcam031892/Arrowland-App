@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LIGHT BLACK-->
+    <color name="colorPrimary">#353839</color>
+
+    <!--DARK BLACK -->
+    <color name="colorPrimaryDark">#0e1111</color>
+
+    <!--FONT COLOR WHITE-->
+
+    <color name="fontWhite">#ffffff</color>
+
+    <!--ORANGE COLOR-->
+
+    <color name="orange">#ff6633</color>
+
+    <color name="colorGreen">#048157</color>
+    <color name="colorDarkGreen">#03875b</color>
+
+    <!--SHADE RED-->
+    <color name="colorShadeRed">#9b0000</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="danger">#ff5d48</color>
+    <color name="grey_ivory">#7f7f78    </color>
+    <color name="btn_primary_color">#0f9df7</color>
+</resources>

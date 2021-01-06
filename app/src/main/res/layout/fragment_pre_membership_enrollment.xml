@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/llMembership"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text="Apply For Membership"
+                    android:textSize="25dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:textSize="15dp"
+                    android:padding="20dp"
+                    android:text="Price : PHP 2,000"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cbMembership"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apply Membership "
+                    android:textColor="@color/fontWhite"
+                    android:buttonTint="@color/fontWhite"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:layout_above="@+id/checkBox1" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/fontWhite"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="10dp">
+                </View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/llLesson">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text="Enroll For Lesson"
+                    android:textSize="25dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:textSize="15dp"
+                    android:padding="20dp"
+                    android:text="Price : PHP 8,500"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cbLesson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enroll Lesson "
+                    android:textColor="@color/fontWhite"
+                    android:buttonTint="@color/fontWhite"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:layout_above="@+id/checkBox1" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/llTransaction"
+                android:visibility="gone"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/fontWhite"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="10dp">
+                </View>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/fontWhite"
+                    android:text="Transaction"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text="Subtotal"
+                    android:textSize="15dp"
+                    android:padding="20dp"
+                    android:id="@+id/tvSubtotal"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text="Discount"
+                    android:textSize="15dp"
+                    android:padding="20dp"
+                    android:id="@+id/tvDiscount"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fontWhite"
+                    android:text="Total:"
+                    android:textSize="15dp"
+                    android:padding="20dp"
+                    android:id="@+id/tvTotal"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/my_button"
+                    android:textColor="@color/fontWhite"
+                    android:text="Submit"
+                    android:id="@+id/btnSubmit"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/llShow"
+                android:layout_marginTop="80pt"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You already apply for membership and Enrollment. Wait for the response from Arrowland. Thank you!"
+                    android:textColor="@color/fontWhite"
+                    android:textSize="30dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/loading_spinner">
+
+    </include>
+
+</RelativeLayout>
